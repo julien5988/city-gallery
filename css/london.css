@@ -1,0 +1,150 @@
+
+*{
+    margin: 0;
+}
+div{
+
+    display: block;
+    text-align: center;
+    
+    
+}
+header{
+    min-width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    max-width: 1200px;
+    background-color: #0c3f76;
+    font-size: 32px;
+    color: white;
+    display: block;
+}
+.logo{
+    width: 250px;
+}
+
+.contener{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+nav{
+    min-width: 300px;
+    width: 33%;
+    background-color: #9bb4ca;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+} 
+
+
+main{
+
+    min-width: 300px;
+    text-align: center;
+    width: 67%;
+    min-height: 600px;
+    background-color: #b5c6d6;
+}
+main  h1 {
+    margin-top: 50px;
+    text-align: left;
+    padding: 10px;
+}
+main p {
+    padding: 20px;
+    text-align: left;
+}
+
+a{  padding: 20px;
+    text-decoration: none;
+    margin-left: 80px;
+    font-size: 24px;
+}
+footer{
+    display: block;
+    justify-content: center;
+    
+    min-width: 300px;
+    max-width: 1200px;
+    min-height: 132px;
+    background-color: #0c3f76;
+    color: white;
+    text-align: center;
+}
+ footer p{
+    padding: px;
+    margin-top: 30px;
+ }
+.copyrigth{
+    margin-top: 28px;
+    width: 15px;
+    background-color: inherit;
+}
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div .contener-london{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}.item{
+    min-width: 100px;
+    width: 250px;
+    text-align: center;
+}
+.contener-london div {
+    
+    text-align: center;
+    margin: 5px;
+}
+.english-flag{
+    margin-left: 20px;
+    margin-top: 50px;
+    display: block;
+    justify-content: left;
+    max-width: 60px;
+    min-width: 20px;
+    max-height: 40px;
+    
+}
+
+.english-flag h1{
+    display: inline-block;
+    align-items: center;
+}
+main.english-flag h1 {
+    display: flex;
+    align-items: center;
+}
+.h1{
+    display: flex;
+    align-items: center;
+    
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    
+}
+i{
+    color:#0c3f76 ;
+    font-size: 24px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 180px;
+    background-color: #9bb4ca;
+}
+.menu{
+    margin-top: 20px;
+}
